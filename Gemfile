@@ -1,0 +1,21 @@
+source 'https://rubygems.org'
+
+ruby '3.0.0'
+
+gem 'rubocop', require: false
+
+gem 'rspec'
+
+gem 'guard-rspec'
+
+gem 'pry'
+
+gem 'dotenv'
+
+gem 'nokogiri'
+
+gem 'xpath'
+
+gem 'guard'
+
+gem 'cgi'
