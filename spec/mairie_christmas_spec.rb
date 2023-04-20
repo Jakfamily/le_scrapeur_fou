@@ -4,7 +4,6 @@ require_relative '../lib/mairie_christmas'
 
 
   # Vérifie que la méthode city_scraper renvoie un tableau de noms de ville non vide
-  city_data = city_scraper()
 describe 'city_scraper' do
   it 'returns a non-empty array of city names' do
     city_data = city_scraper()
