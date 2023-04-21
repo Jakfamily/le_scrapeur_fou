@@ -27,5 +27,5 @@ describe "display_city_data_as_list" do
   it "displays the city data in a numbered list" do
     city_data = {"ableiges" => "mairie.ableiges95@wanadoo.fr", "aincourt" => "mairie.aincourt@wanadoo.fr"}
     expect { display_city_data_as_list(city_data) }.to output("1. ableiges: mairie.ableiges95@wanadoo.fr\n2. aincourt: mairie.aincourt@wanadoo.fr\n").to_stdout
-  end 
+  end
 end
