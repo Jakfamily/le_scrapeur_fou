@@ -18,4 +18,3 @@ gem 'xpath'
 
 gem 'guard'
 
-gem 'cgi'

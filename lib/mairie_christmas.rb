@@ -20,6 +20,8 @@ def display_city_data_as_list(city_data)
   end
 end
 
+
+# itere les donner data pour modifier url et recuperer les adresse email de chaque mairie
 def emails_scraper(city_data)
   city_data.each do |city_name, email|
     page = Nokogiri::HTML(URI.open("https://annuaire-des-mairies.com/95/#{city_name.downcase}.html"))
